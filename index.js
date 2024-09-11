@@ -11,6 +11,11 @@ fs.readFile(path.join(__dirname, 'Files', 'starter.txt'), (err, data) => {
     
 })
 
+fs.writeFile(path.join(__dirname, 'Files', 'reply.txt'), 'Nice to meet you', (err) => {
+    if(err)  throw err;
+    console.log('Write complete')
+})
 
-console.log(__dirname)
-console.log(__filename)
+
+// console.log(__dirname)
+// console.log(__filename)
