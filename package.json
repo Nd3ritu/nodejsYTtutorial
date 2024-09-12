@@ -1,0 +1,27 @@
+{
+  "name": "nodejstut",
+  "version": "1.0.0",
+  "description": "node.js tutorial",
+  "main": "yes",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nd3ritu/nodejsYTtutorial.git"
+  },
+  "author": "Nderitu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nd3ritu/nodejsYTtutorial/issues"
+  },
+  "homepage": "https://github.com/Nd3ritu/nodejsYTtutorial#readme",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
