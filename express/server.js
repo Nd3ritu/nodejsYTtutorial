@@ -4,7 +4,9 @@ const path = require('path')
 const PORT = process.env.port || 3500;
 
 app.get('/', (req,res) => {
-  res.send('Hello World!'); 
+  res.sendFile(path.join(__dirname, 'views', 'index.html'));  //serve a file 
 })
 
-app.listen(PORT, () => console.log(`Server running pn port ${PORT} `))
+
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT} `)) 
